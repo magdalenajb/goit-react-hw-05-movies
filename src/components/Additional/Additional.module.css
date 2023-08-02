@@ -1,0 +1,16 @@
+.title {
+  margin-bottom: 15px;
+}
+
+.item {
+  display: block;
+  font-weight: 600;
+
+  &:not(:last-child) {
+    margin-bottom: 5px;
+  }
+}
+
+.link {
+  color: #141313;
+}

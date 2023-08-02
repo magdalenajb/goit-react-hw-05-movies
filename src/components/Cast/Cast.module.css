@@ -1,0 +1,32 @@
+.item {
+  display: flex;
+
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+
+.img {
+  margin-right: 15px;
+  border-radius: 5px;
+}
+
+.imgNotFound {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100px;
+  height: 150px;
+  margin-right: 15px;
+  border-radius: 5px;
+  background-color: #faf7f7;
+}
+
+.actorName {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.character {
+  font-style: italic;
+}

@@ -1,0 +1,24 @@
+.list {
+  padding: 0;
+}
+
+.item {
+  display: block;
+  font-weight: 600;
+
+  &:not(:last-child) {
+    margin-bottom: 14px;
+  }
+}
+
+.link {
+  color: #000;
+
+  &:hover,
+  :focus {
+    color: #5d84b8;
+    font-style: italic;
+    font-weight: 700;
+    transition: color 200ms linear;
+  }
+}
